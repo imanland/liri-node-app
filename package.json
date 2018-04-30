@@ -1,8 +1,14 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "liri application developped w/ nodeJS",
-  "main": "index.js",
+  "description": "creating a liri app",
+  "main": "liri.js",
+  "dependencies": {
+    "request": "^2.75.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.4.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,16 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/imanland/liri-node-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Iman Eltayeb",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/imanland/liri-node-app/issues"
   },
-  "homepage": "https://github.com/imanland/liri-node-app#readme",
-  "dependencies": {
-    "node-spotify-api": "^1.0.7",
-    "request": "^2.83.0",
-    "twitter": "^1.7.1"
-  }
+  "homepage": "https://github.com/imanland/liri-node-app#readme"
 }
